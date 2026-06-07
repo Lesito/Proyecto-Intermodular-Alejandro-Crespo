@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login - INFONET ALGECIRAS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                INFONET ALGECIRAS
+                <img src="https://www.infonetalgeciras.pro/wp-content/uploads/2025/02/Group-2.svg" width="100" />
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">
+                            Sobre Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="servicios.html">
+
+                            Servicios
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="asistencia.html">
+                            Asistencia Remota
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+
+                        <a href="login.html"
+                            class="btn btn-primary active">
+
+                            Iniciar Sesion
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="bg-light min-vh-100 d-flex align-items-center">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6 col-lg-4">
+
+                    <div class="card border-0 shadow-lg">
+
+                        <div class="card-body p-5">
+
+                            <div class="text-center mb-4">
+
+                                <h2 class="fw-bold">
+                                    Login
+                                </h2>
+
+                                <p class="text-muted">
+                                    Accede a tu cuenta
+                                </p>
+
+                            </div>
+
+                            <form id="loginForm">
+
+                                <div class="mb-3">
+
+                                    <label class="form-label">
+                                        Usuario
+                                    </label>
+
+                                    <input type="text"
+                                        id="username"
+                                        class="form-control"
+                                        placeholder="Introduce tu usuario"
+                                        required>
+
+                                </div>
+
+                                <div class="mb-4">
+
+                                    <label class="form-label">
+                                        Contraseña
+                                    </label>
+
+                                    <input type="password"
+                                        id="password"
+                                        class="form-control"
+                                        placeholder="Introduce tu contraseña"
+                                        required>
+
+                                </div>
+
+                                <button type="submit"
+                                    class="btn btn-primary w-100">
+
+                                    Iniciar sesión
+
+                                </button>
+
+                                <div id="message"
+                                    class="text-center mt-3 fw-bold">
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-warning text-dark text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-0">
+                Proyecto Intermodular SMR - 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
