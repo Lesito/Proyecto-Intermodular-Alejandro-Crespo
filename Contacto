@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Contacto - INFONET ALGECIRAS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                INFONET ALGECIRAS
+                <img src="https://www.infonetalgeciras.pro/wp-content/uploads/2025/02/Group-2.svg" width="100" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">
+                            Sobre Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="servicios.html">
+
+                            Servicios
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="asistencia.html">
+                            Asistencia Remota
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+
+                        <a href="login.html"
+                            id="loginButton"
+                            class="btn btn-primary">
+
+                            Iniciar Sesión
+
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="bg-light py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-5 fw-bold mb-3">
+                Contacto
+            </h1>
+
+            <p class="lead text-muted">
+                Ponte en contacto con nosotros para resolver cualquicidencia.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="row g-5">
+
+                <div class="col-lg-6">
+
+                    <h2 class="fw-bold mb-4">
+                        Envíanos un mensaje
+                    </h2>
+
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="1de2da71-9934-4707-b530-26999bded115">
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Nombre
+                            </label>
+
+                            <input type="text" name="nombre" class="form-control" required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Email
+                            </label>
+
+                            <input type="email" name="email" class="form-control" required>
+
+                        </div>
+
+                        <div class="mb-3">
+
+                            <label class="form-label">
+                                Mensaje
+                            </label>
+
+                            <textarea name="mensaje" class="form-control" rows="5" required></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">
+
+                            Enviar mensaje
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <h2 class="fw-bold mb-4">
+                        Información de contacto
+                    </h2>
+
+                    <div class="card border-0 shadow-sm mb-4">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold mb-3">
+                                Teléfono
+                            </h5>
+
+                            <p class="text-muted mb-0">
+                                956 665 274
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card border-0 shadow-sm mb-4">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold mb-3">
+                                Email
+                            </h5>
+
+                            <p class="text-muted mb-0">
+                                info@infonetalgeciras.com
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card border-0 shadow-sm mb-4">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold mb-3">
+                                Ubicación
+                            </h5>
+                            Algeciras, Cádiz, España
+                            <p class="text-muted mb-0">
+                                
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d955.5564914917945!2d-5.458485830357314!3d36.13613128137847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c94b5a4da4a27%3A0x25eb2b19f2ac85e8!2sInfo%20Net%20Algeciras!5e1!3m2!1ses!2ses!4v1780851499378!5m2!1ses!2ses"
+                            allowfullscreen="" loading="lazy">
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-warning text-dark text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-0">
+                Proyecto Intermodular SMR - 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
