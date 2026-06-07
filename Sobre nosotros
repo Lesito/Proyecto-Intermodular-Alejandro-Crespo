@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sobre Nosotros - INFONET ALGECIRAS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning shadow-sm">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                INFONET ALGECIRAS
+                <img src="https://www.infonetalgeciras.pro/wp-content/uploads/2025/02/Group-2.svg" width="100" />
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sobre-nosotros.html">
+                            Sobre Nosotros
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                            href="servicios.html">
+
+                            Servicios
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="asistencia.html">
+                            Asistencia Remota
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+
+                        <a href="login.html"
+                            id="loginButton"
+                            class="btn btn-primary">
+
+                            Iniciar Sesión
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <section class="bg-light py-5">
+
+        <div class="container text-center">
+
+            <h1 class="display-5 fw-bold mb-3">
+                Sobre Nosotros
+            </h1>
+
+            <p class="lead text-muted">
+                Soluciones informáticas adaptadas a particulares y empresas.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="sobre-nosotros" class="py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 mb-4 mb-lg-0">
+
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy40080UCPHYPCHd0MKXCyS8D36KQZFRWOiAzPQnMfI_03qNynO0O3jNu2i1203qqMNXyco08GLCfSreda5kF4WwQIArk7aIjWEYfISFJvqkqmIIZT29uycxfME8vYPwVuQj9bsNkAC2U/s1600/yo.png"
+                        />
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <span class="text-primary fw-bold">
+                        INFONET ALGECIRAS
+                    </span>
+
+                    <h2 class="fw-bold mt-2 mb-4">
+                        Servicios tecnológicos y soporte informático
+                    </h2>
+
+                    <p class="text-muted">
+                        En Info-net Algeciras, llevamos más de 24 años ofreciendo soluciones tecnológicas innovadoras para empresas, centros educativos y usuarios domésticos. Nos especializamos en ciberseguridad, instalación de redes, certificación y mantenimiento IT, copias de seguridad en la nube y venta de equipos informáticos.
+                    </p>
+
+                    <p class="text-muted">
+                        Además, ampliamos nuestros servicios con asistencia remota y la venta de software de protección, incluyendo antivirus, soluciones endpoint y copias de seguridad con, garantizando la máxima seguridad para los datos y sistemas de nuestros clientes.
+                    </p>
+
+                    <p class="text-muted">
+                        Trabajamos con un enfoque cercano y profesional,
+                        ofreciendo asistencia personalizada, optimización de
+                        equipos y resolución de incidencias tecnológicas.
+                    </p>
+
+                    <a href="contacto.html"
+                        class="btn btn-primary mt-4">
+
+                        Contactar
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-warning text-dark text-center py-4">
+
+        <div class="container">
+
+            <p class="mb-0">
+                Proyecto Intermodular SMR - 2026
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
